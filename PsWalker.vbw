@@ -1,0 +1,6 @@
+modListStyle = 75, 75, 1418, 736, C
+frmPsWalker = 50, 50, 1393, 711, C, 25, 25, 1368, 686, C
+modOSVersion = 75, 75, 1418, 736, C
+modProcess = 100, 100, 1443, 761, C
+modPrvilege = 125, 125, 1468, 786, C
+modPsWalker = 150, 150, 1493, 811, C
