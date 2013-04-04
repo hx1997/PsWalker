@@ -241,7 +241,7 @@ End Function
 Private Sub Form_Load()
     Call MiniEnablePrivilege
     Call InitProcessList(lsProcesses)
-    Call SetListViewStyle(lsProcesses, LVS_EX_FULLROWSELECT, True)
+    SendMessageLong lsProcesses.hWnd, LVM_SETEXTENDEDLISTVIEWSTYLE, LVS_EX_FULLROWSELECT, True
 End Sub
 
 Private Sub Form_Unload(Cancel As Integer)
